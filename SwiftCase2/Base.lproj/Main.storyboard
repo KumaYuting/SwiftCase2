@@ -753,7 +753,7 @@ Cg
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="sly-er-Di4" kind="show" id="2QX-q3-BGN"/>
+                                    <segue destination="SwW-HU-I7b" kind="show" id="a0f-db-8An"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9x-SO-bdC">
@@ -767,7 +767,7 @@ Cg
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="SwW-HU-I7b" kind="show" id="DDh-nw-e7s"/>
+                                    <segue destination="IxI-d1-JkE" kind="show" id="x2Y-iE-NoU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -914,7 +914,7 @@ Cg
                                             <attributedString key="attributedText">
                                                 <fragment content="你試圖離開，但古老的走廊彷彿沒有盡頭，腳步聲和低語聲從背後逼近。你發現一扇緊閉的門，門後傳來微弱的哭聲。">
                                                     <attributes>
-                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="24" name="PingFangTC-Regular"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                             <tabStops/>
@@ -1106,7 +1106,7 @@ Cg
                                             <attributedString key="attributedText">
                                                 <fragment content="你回到宴會廳，發現賓客們露出乾枯的骷髏模樣。女主人走到你面前，冷冷地說：「你是最後一位賓客，我們等你很久了。」 ">
                                                     <attributes>
-                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="24" name="PingFangTC-Regular"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                             <tabStops/>
@@ -1136,9 +1136,12 @@ Cg
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="gES-ji-Szn" kind="show" id="Fqr-FP-aqG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7N-9r-1Wl">
-                                <rect key="frame" x="46" y="226" width="238" height="70"/>
+                                <rect key="frame" x="38" y="131" width="238" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="3Fb-fK-R1r"/>
                                 </constraints>
@@ -1155,7 +1158,7 @@ Cg
                         <viewLayoutGuide key="safeArea" id="yDd-8w-hmV"/>
                         <color key="backgroundColor" name="YBackgound"/>
                         <constraints>
-                            <constraint firstItem="o7N-9r-1Wl" firstAttribute="top" secondItem="yDd-8w-hmV" secondAttribute="top" constant="123" id="4ug-Gp-xhU"/>
+                            <constraint firstItem="o7N-9r-1Wl" firstAttribute="top" secondItem="yDd-8w-hmV" secondAttribute="top" constant="28" id="4ug-Gp-xhU"/>
                             <constraint firstItem="Tn6-bp-X8w" firstAttribute="top" secondItem="yDd-8w-hmV" secondAttribute="top" constant="500" id="57Y-X8-EM0"/>
                             <constraint firstItem="bfa-e2-TgU" firstAttribute="leading" secondItem="yDd-8w-hmV" secondAttribute="leading" id="6o7-hD-chN"/>
                             <constraint firstItem="hTk-3N-THt" firstAttribute="top" secondItem="yDd-8w-hmV" secondAttribute="top" constant="357" id="Dxi-Bq-3EL"/>
@@ -1164,8 +1167,8 @@ Cg
                             <constraint firstItem="yDd-8w-hmV" firstAttribute="trailing" secondItem="hTk-3N-THt" secondAttribute="trailing" constant="49" id="MUh-mx-mJd"/>
                             <constraint firstItem="yDd-8w-hmV" firstAttribute="trailing" secondItem="bfa-e2-TgU" secondAttribute="trailing" id="SCa-3U-cb3"/>
                             <constraint firstAttribute="bottom" secondItem="bfa-e2-TgU" secondAttribute="bottom" id="dpD-0U-l2q"/>
-                            <constraint firstItem="yDd-8w-hmV" firstAttribute="trailing" secondItem="o7N-9r-1Wl" secondAttribute="trailing" constant="109" id="eHu-m3-XKu"/>
-                            <constraint firstItem="o7N-9r-1Wl" firstAttribute="leading" secondItem="yDd-8w-hmV" secondAttribute="leading" constant="46" id="eI5-dz-a5f"/>
+                            <constraint firstItem="yDd-8w-hmV" firstAttribute="trailing" secondItem="o7N-9r-1Wl" secondAttribute="trailing" constant="117" id="eHu-m3-XKu"/>
+                            <constraint firstItem="o7N-9r-1Wl" firstAttribute="leading" secondItem="yDd-8w-hmV" secondAttribute="leading" constant="38" id="eI5-dz-a5f"/>
                             <constraint firstItem="Tn6-bp-X8w" firstAttribute="leading" secondItem="yDd-8w-hmV" secondAttribute="leading" id="ezK-0j-6gX"/>
                             <constraint firstItem="hTk-3N-THt" firstAttribute="leading" secondItem="yDd-8w-hmV" secondAttribute="leading" constant="106" id="j2a-b5-8YA"/>
                             <constraint firstItem="bfa-e2-TgU" firstAttribute="top" secondItem="Ily-eJ-od0" secondAttribute="top" id="rIv-S9-8nT"/>
@@ -1369,9 +1372,10 @@ Cg
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zst-7b-Xoq"/>
-        <segue reference="DDh-nw-e7s"/>
-        <segue reference="2QX-q3-BGN"/>
+        <segue reference="Fqr-FP-aqG"/>
+        <segue reference="rqR-oP-dhZ"/>
+        <segue reference="x2Y-iE-NoU"/>
+        <segue reference="a0f-db-8An"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Book1" width="240" height="300"/>
